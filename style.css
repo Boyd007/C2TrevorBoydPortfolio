@@ -100,7 +100,7 @@ main #portfolio div {
 
 #portfolio h5 {
     padding-top: 25px;
-    font-size: 20px;
+    font-size: 40px;
     text-transform: uppercase;
     position: absolute;
     width: 100%;
@@ -123,9 +123,9 @@ main #portfolio div {
     display: block;
     margin-bottom: 50px;
     height: 500px;
-    background-image: url("https://via.placeholder.com/250");
+    background-image: url("landingimg.png");
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 50%;
     background-position: center;
 }
 
