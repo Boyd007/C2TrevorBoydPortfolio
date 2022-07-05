@@ -136,7 +136,6 @@ main #portfolio div {
 .single-item {
     flex: 3 0 28%;
     height: 250px;
-    background-image: url("https://via.placeholder.com/250");
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: center;
