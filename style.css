@@ -31,6 +31,7 @@ header nav h2 {
     font-family: "Dancing Script";
     font-size: 35px;
     margin: 15px 50px;
+
 }
 
 header nav ul {
@@ -110,7 +111,7 @@ main #portfolio div {
 #portfolio h5 a {
     font-size: 25px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #portfolio #main-item p, #portfolio .single-item p {
@@ -141,6 +142,19 @@ main #portfolio div {
     background-position: center;
     text-align: center;
     position: relative;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 2px;
+    box-shadow: 0px 0px 10px 1px;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgb(78,63,112) 35%, rgb(168, 138, 240) 100%);
+    color: white
+
+
+}
+.single-item> h5 {
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -172,3 +186,52 @@ main #contact {
         margin-bottom: 50px;
     }
   }
+  .element {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    animation: 
+      pulse 3s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
+    border-radius: 100%;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      background-color: red;
+    }
+    50% {
+      background-color: orange;
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(150px, 0);
+    }
+    
+    80% {
+      transform: translate(-150px, 0);
+    }
+  }
+  
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  View Compiled
+  
+  
+  Resources
+
